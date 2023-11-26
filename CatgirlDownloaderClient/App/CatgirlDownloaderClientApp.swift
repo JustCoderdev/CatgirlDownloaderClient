@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+let NEKO_API = NekosAPI_v1()
+
 @main
 struct CatgirlDownloaderClientApp: App {
     var body: some Scene {

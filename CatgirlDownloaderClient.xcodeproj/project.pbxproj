@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F663FDD2B13A06700D9F31B /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 1F663FDC2B13A06600D9F31B /* Preview Content */; };
+		1F663FE32B13B3E900D9F31B /* NKUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F663FE22B13B3E900D9F31B /* NKUser.swift */; };
+		1F663FE52B13B40200D9F31B /* NKImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F663FE42B13B40200D9F31B /* NKImage.swift */; };
+		1F663FEA2B13C4C600D9F31B /* NKResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F663FE92B13C4C600D9F31B /* NKResponses.swift */; };
+		1F663FEC2B13C76300D9F31B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F663FEB2B13C76300D9F31B /* HTTPMethod.swift */; };
+		1F663FEE2B13DFB300D9F31B /* CatgirlImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F663FED2B13DFB300D9F31B /* CatgirlImageManager.swift */; };
 		1F91DF1C2B13927100298886 /* CatgirlDownloaderClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91DF1B2B13927100298886 /* CatgirlDownloaderClientApp.swift */; };
 		1F91DF1E2B13927100298886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91DF1D2B13927100298886 /* ContentView.swift */; };
 		1F91DF202B13927600298886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F91DF1F2B13927600298886 /* Assets.xcassets */; };
-		1F91DF232B13927600298886 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F91DF222B13927600298886 /* Preview Assets.xcassets */; };
+		1F91DF2A2B1395AC00298886 /* NekosAPI_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91DF292B1395AC00298886 /* NekosAPI_v1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F663FDC2B13A06600D9F31B /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		1F663FE22B13B3E900D9F31B /* NKUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKUser.swift; sourceTree = "<group>"; };
+		1F663FE42B13B40200D9F31B /* NKImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKImage.swift; sourceTree = "<group>"; };
+		1F663FE72B13B4FF00D9F31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F663FE92B13C4C600D9F31B /* NKResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKResponses.swift; sourceTree = "<group>"; };
+		1F663FEB2B13C76300D9F31B /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		1F663FED2B13DFB300D9F31B /* CatgirlImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatgirlImageManager.swift; sourceTree = "<group>"; };
 		1F91DF182B13927100298886 /* CatgirlDownloaderClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatgirlDownloaderClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F91DF1B2B13927100298886 /* CatgirlDownloaderClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatgirlDownloaderClientApp.swift; sourceTree = "<group>"; };
 		1F91DF1D2B13927100298886 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F91DF1F2B13927600298886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F91DF222B13927600298886 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F91DF292B1395AC00298886 /* NekosAPI_v1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekosAPI_v1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +45,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F2BDC452B139FE300832A62 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				1F663FDC2B13A06600D9F31B /* Preview Content */,
+				1F91DF1F2B13927600298886 /* Assets.xcassets */,
+				1F663FE72B13B4FF00D9F31B /* Info.plist */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		1F663FDE2B13A0C800D9F31B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1F663FEB2B13C76300D9F31B /* HTTPMethod.swift */,
+				1F663FED2B13DFB300D9F31B /* CatgirlImageManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1F663FDF2B13B3A800D9F31B /* NekosAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1F663FE12B13B3D600D9F31B /* Data */,
+				1F91DF292B1395AC00298886 /* NekosAPI_v1.swift */,
+			);
+			path = NekosAPI;
+			sourceTree = "<group>";
+		};
+		1F663FE02B13B3B200D9F31B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1F663FDF2B13B3A800D9F31B /* NekosAPI */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		1F663FE12B13B3D600D9F31B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1F663FE22B13B3E900D9F31B /* NKUser.swift */,
+				1F663FE42B13B40200D9F31B /* NKImage.swift */,
+				1F663FE92B13C4C600D9F31B /* NKResponses.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1F663FE62B13B47800D9F31B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1F91DF1B2B13927100298886 /* CatgirlDownloaderClientApp.swift */,
+				1F91DF1D2B13927100298886 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		1F91DF0F2B13927100298886 = {
 			isa = PBXGroup;
 			children = (
@@ -51,20 +119,12 @@
 		1F91DF1A2B13927100298886 /* CatgirlDownloaderClient */ = {
 			isa = PBXGroup;
 			children = (
-				1F91DF1B2B13927100298886 /* CatgirlDownloaderClientApp.swift */,
-				1F91DF1D2B13927100298886 /* ContentView.swift */,
-				1F91DF1F2B13927600298886 /* Assets.xcassets */,
-				1F91DF212B13927600298886 /* Preview Content */,
+				1F2BDC452B139FE300832A62 /* Meta */,
+				1F663FE02B13B3B200D9F31B /* Libraries */,
+				1F663FDE2B13A0C800D9F31B /* Data */,
+				1F663FE62B13B47800D9F31B /* App */,
 			);
 			path = CatgirlDownloaderClient;
-			sourceTree = "<group>";
-		};
-		1F91DF212B13927600298886 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1F91DF222B13927600298886 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F91DF232B13927600298886 /* Preview Assets.xcassets in Resources */,
+				1F663FDD2B13A06700D9F31B /* Preview Content in Resources */,
 				1F91DF202B13927600298886 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F663FEE2B13DFB300D9F31B /* CatgirlImageManager.swift in Sources */,
+				1F91DF2A2B1395AC00298886 /* NekosAPI_v1.swift in Sources */,
 				1F91DF1E2B13927100298886 /* ContentView.swift in Sources */,
+				1F663FEC2B13C76300D9F31B /* HTTPMethod.swift in Sources */,
+				1F663FE52B13B40200D9F31B /* NKImage.swift in Sources */,
 				1F91DF1C2B13927100298886 /* CatgirlDownloaderClientApp.swift in Sources */,
+				1F663FE32B13B3E900D9F31B /* NKUser.swift in Sources */,
+				1F663FEA2B13C4C600D9F31B /* NKResponses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,15 +332,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatgirlDownloaderClient/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "CatgirlDownloaderClient/Meta/Preview\\ Content";
 				DEVELOPMENT_TEAM = T5TB9TKZR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = CatgirlDownloaderClient/Meta/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Catgurlz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,15 +363,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatgirlDownloaderClient/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "CatgirlDownloaderClient/Meta/Preview\\ Content";
 				DEVELOPMENT_TEAM = T5TB9TKZR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = CatgirlDownloaderClient/Meta/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Catgurlz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
